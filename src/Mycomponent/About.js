@@ -35,7 +35,8 @@ export default function About() {
             <br />
             <div className="a1">
             <a href="/Verify">Order Now</a>
-            <a id="review" href="/Book">Review Us</a>
+            <a id="review" href="/Book">Review Us
+    </a>
             </div>
         </div>
 
