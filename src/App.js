@@ -28,7 +28,8 @@ function App() {
           <>
           <Home/>
           </>
-        }></Route>
+        }>
+  </Route>
 
         <Route path='/About' element={<About/>}></Route>
         <Route path='/chef' element={<Chef/>}></Route>
