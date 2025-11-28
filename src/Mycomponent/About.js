@@ -13,7 +13,8 @@ export default function About() {
     // If it's the user's first visit, initialize the count
     if (!count) {
       count = 1;
-    } else {
+    }
+    else {
       count = parseInt(count) + 1;
     }
     
