@@ -34,7 +34,8 @@ export default function About() {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde possimus natus deleniti! Eius distinctio natus aspernatur, harum quibusdam maiores, provident optio voluptatum illum sit sunt. Laboriosam porro ab, blanditiis ad odit a neque dolore iusto, quis ipsam labore numquam iste itaque? Cumque vel sequi libero quisquam, aspernatur alias.</p>
             <br />
             <div className="a1">
-            <a href="/Verify">Order Now</a>
+            <a href="/Verify">Order Now
+    </a>
             <a id="review" href="/Book">Review Us
     </a>
             </div>
