@@ -29,7 +29,8 @@ export default function About() {
     <div className="floating-bg"></div>
       <div className="container2">
         <div className="box1">
-            <h4>Our Story</h4>
+            <h4>Our Story
+    </h4>
             <h2>ABOUT US
     </h2>
             <p className='a'>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</p>
