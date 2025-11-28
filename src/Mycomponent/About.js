@@ -30,7 +30,8 @@ export default function About() {
       <div className="container2">
         <div className="box1">
             <h4>Our Story</h4>
-            <h2>ABOUT US</h2>
+            <h2>ABOUT US
+    </h2>
             <p className='a'>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde possimus natus deleniti! Eius distinctio natus aspernatur, harum quibusdam maiores, provident optio voluptatum illum sit sunt. Laboriosam porro ab, blanditiis ad odit a neque dolore iusto, quis ipsam labore numquam iste itaque? Cumque vel sequi libero quisquam, aspernatur alias.
     </p>
