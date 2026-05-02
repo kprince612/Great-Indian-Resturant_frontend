@@ -17,7 +17,7 @@ export default function Previous() {
 
   const sendOrderOTP = async () => {
     try {
-      const response = await axios.post ("https://great-indian-resturant-backend.onrender.com/send-order-otp", {email});
+      const response = await axios.post ("https://great-indian-resturant-backend.vercel.app/send-order-otp", {email});
       if (response.data.success) {
         alert (`OTP sent to ${email}`);
         setOtpSent (true);
@@ -41,7 +41,7 @@ export default function Previous() {
     }
 
     try {
-      const response = await axios.get("https://great-indian-resturant-backend.onrender.com/api/orders", {
+      const response = await axios.get("https://great-indian-resturant-backend.vercel.app/api/orders", {
         params: { email },
       });
 
@@ -58,7 +58,7 @@ export default function Previous() {
 
   const verifyOrderOTP = async () => {
     try {
-      const response = await axios.post ("https://great-indian-resturant-backend.onrender.com/verify-order-otp", {email, otp});
+      const response = await axios.post ("https://great-indian-resturant-backend.vercel.app/verify-order-otp", {email, otp});
       if (response.data.success) {
         alert ('Email verification Completed');
         setOtpVerify (true);
