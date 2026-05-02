@@ -101,7 +101,7 @@ export default function Book() {
     }
 
     try {
-      const response = await axios.post ("https://great-indian-resturant-backend.onrender.com/send-info", {
+      const response = await axios.post ("https://great-indian-resturant-backend.vercel.app/send-info", {
         email: formData.email,
         message: formData.message,
       });
@@ -137,7 +137,7 @@ export default function Book() {
 
     else {
     try {
-      const response = await axios.post('https://great-indian-resturant-backend.onrender.com/api/contact', formData);
+      const response = await axios.post('https://great-indian-resturant-backend.vercel.app/api/contact', formData);
       console.log('Form data saved:', response.data);
 
      setFormData({
